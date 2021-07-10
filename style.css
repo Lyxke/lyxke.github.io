@@ -33,13 +33,16 @@ img{
 nav{
     text-align: center;
     background-color: rgba(58, 67, 75, 0.338);
-    height: 40px;
+    height: 30px;
+    padding-left: auto;
+    padding-right: auto;
+
 }
 
 nav a{
     text-decoration: none;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -60,7 +63,7 @@ body{
 main{
     height: 400px;
     text-align: center;
-    padding-top: auto;
+    padding-top: 60px;
     padding-left: auto;
     padding-right: auto;
 
