@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Raleway', sans-serif;
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    display: flex;
+    text-align: center;
 }
 
-.logo{
-    max-width: 25%;
-    max-height: 25%;
+.fade-in{
+    animation: fadeIn 2s;
+    opacity: 1;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+  }
 
 .center {
     text-align: center;
 }
 
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
+img{
+    text-align: center;
 }
+
+
 
 html{
     height: 100%;
@@ -29,4 +42,29 @@ body{
     background-image: url(assets/img/bg/starsbg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
 }
+
+main{
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+footer{
+    color: gray;
+    text-align: center;
+}
+
+
