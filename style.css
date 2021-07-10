@@ -30,7 +30,11 @@ img{
     text-align: center;
 }
 
-
+nav{
+    text-align: center;
+    background-color: rgba(58, 67, 75, 0.338);
+    height: 40px;
+}
 
 html{
     height: 100%;
@@ -48,9 +52,10 @@ body{
 main{
     height: 400px;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-top: auto;
+    padding-left: auto;
+    padding-right: auto;
+
 }
 
 
@@ -65,6 +70,9 @@ p{
 footer{
     color: gray;
     text-align: center;
+    padding-top: auto;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 
